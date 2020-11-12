@@ -1,0 +1,110 @@
+.card-title{
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    font-family: oswald;
+}
+.card-subtitle{
+    background-color: rgb(202, 188, 188);
+    border-radius: 5px;
+    color: white;
+    width: 180px;
+}
+
+.DarkSection {
+    background-color: #666666;
+    border: 1px solid #cccccc;
+    height: 100%;
+    width: 95%;
+    margin: 30px 30px 0px 30px;
+    border-radius: 10px;
+}
+.ClairTitle {
+    color: white;
+    font-weight: 700px;
+    font-size: 40px;
+    font-family: oswald;
+    height: 12%;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+  }
+
+
+  
+.DarkTitle span {
+    background-color: rgba(59, 63, 80, 0.6);
+    border-radius: 5px;
+    color: white;
+    width: 10px;
+}
+  
+.TitleSection {
+    height: 15%;
+    width: 100%;
+    border: none dotted #030303;
+    font-size: 40px;
+    font-weight: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-self: start;
+}
+
+#ProjectsCards {
+    /* border: 1px solid red; */
+    /* background-color: turquoise; */
+    height: 85%;
+    margin: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    
+  }
+  
+.ProjectCard {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 48%;
+    width: 21%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+  
+.ProjectImage {
+    height: 45%;
+    width: 100%;
+    /* border: 0.5px dashed red; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.projectTitle {
+    text-align: center;
+    text-transform: uppercase;
+    height: 33%;
+    width: 100%;
+    /* border: 0.5px dashed red; */
+}
+.projectTitle small{
+      height: 23%;
+}
+.learn_more{
+    height: 15%;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: oswald;
+    font-size: 20px;
+    background-color: #cccccc;
+    color: #412f2f;
+}
+
+.ProjectCard:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
